@@ -31,7 +31,7 @@ public class ProductByLookupCodeQuery implements ResultCommandInterface<Product>
 	// Helper methods
 	private void validateProperties() {
 		if (StringUtils.isBlank(this.lookupCode)) {
-			throw new UnprocessableEntityException("lookupcode");
+			throw new UnprocessableEntityException("uarkplaceholder");
 		}
 	}
 
